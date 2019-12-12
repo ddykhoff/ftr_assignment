@@ -1,0 +1,17 @@
+{
+  "name": "ftr_assignment",
+  "version": "1.0.0",
+  "description": "Coding Test for For the Record job interview process",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "run": "node ./build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.17",
+    "typescript": "^3.7.3"
+  }
+}
