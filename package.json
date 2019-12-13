@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Coding Test for For the Record job interview process",
   "main": "build/index.js",
+  "engines": {
+    "node": ">=10.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "run": "node ./build/index.js"
+    "start": "npm run build && node ./build/index.js"
   },
   "author": "",
   "license": "ISC",
